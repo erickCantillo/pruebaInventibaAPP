@@ -13,7 +13,7 @@ export default function App() {
     setState({ ...state, [name]:value })
   }
   const consultarApi = () => {
-    return fetch('http://192.168.1.15/prueba/public/api/login', {
+    return fetch('https://pure-falls-97819.herokuapp.com/api/login', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
